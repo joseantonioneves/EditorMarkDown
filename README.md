@@ -28,24 +28,46 @@ dotnet build
 
 This will restore dependencies and build the project.
 
+## Prerequisites
+
+Before running the Markdown Editor project, ensure you have the following installed on your system:
+
+- **A modern web browser**  
+  (e.g., Chrome, Firefox, Edge, or Safari)
+
+- **A local web server** (recommended for full functionality)  
+  You can use either **Python 3** or **Node.js** to serve the files locally.
+
+### Installation Instructions
+
+If you do not have Python 3 or Node.js installed, follow these steps:
+
+#### Python 3
+
+- **Windows/macOS/Linux:**  
+  Download and install Python 3 from [https://www.python.org/downloads/](https://www.python.org/downloads/).
+
+- **Verify installation:**  
+  Open a terminal or command prompt and run:
+  ```sh
+  python --version
+  ```
+
+#### Node.js
+
+- **Windows/macOS/Linux:**  
+  Download and install Node.js from [https://nodejs.org/](https://nodejs.org/).
+
+- **Verify installation:**  
+  Open a terminal or command prompt and run:
+  ```sh
+  node --version
+  npm --version
+  ```
+
+Once installed, you can start a local server using the instructions in the **Execution** section below.
+
 ## Execution
-
-After a successful build, you can run the application with:
-
-```
-dotnet run
-```
-
-Or, if you want to run the compiled executable directly:
-
-```
-cd bin\Debug\net8.0
-EditorMarkDown.exe
-```
-
-Replace `net8.0` with your target framework if different.
-
-## Other way ...
 
 ### Compilation and Execution Steps
 
@@ -92,9 +114,8 @@ You can also open `index.html` directly in your browser, but some features may n
 
 ## Notes
 
-- Make sure you have [.NET SDK](https://dotnet.microsoft.com/download) installed.
 - For other environments or configurations, adjust the commands accordingly.
 
 ## License
 
-Same as the https://github.com/jbt/markdown-editor
+GNU GENERAL PUBLIC LICENSE Version 3
